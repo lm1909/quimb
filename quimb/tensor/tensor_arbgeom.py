@@ -572,7 +572,7 @@ class TensorNetworkGenVector(TensorNetworkGen):
 
         Parameters
         ----------
-        G : array_ike
+        G : array_like
             The gate array to apply, should match or be factorable into the
             shape ``(*phys_dims, *phys_dims)``.
         where : node or sequence[node]

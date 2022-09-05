@@ -8987,10 +8987,6 @@ class PTensor(Tensor):
         See :class:`~quimb.tensor.tensor_core.Tensor`.
     left_inds : optional
         See :class:`~quimb.tensor.tensor_core.Tensor`.
-
-    See Also
-    --------
-    PTensor
     """
 
     __slots__ = ('_parray', '_inds', '_tags', '_left_inds', '_owners')

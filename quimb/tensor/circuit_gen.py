@@ -114,7 +114,7 @@ def gates_to_param_circuit(gates, n, parametrize='U3', **circuit_opts):
     gates : sequence[tuple[str, float, int]]
         The gates describing the circuit.
     n : int
-        The number of qubits to make the circuit act one.
+        The number of qubits to make the circuit act on.
     parametrize : str or sequence[str], optional
         Which gates to parametrize.
     circuit_opts
